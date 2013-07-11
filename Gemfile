@@ -30,6 +30,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Use Devise
+gem 'devise', :git => "git@github.com:plataformatec/devise.git", :branch => "rails4"
+
 gem 'therubyracer', :platforms => :ruby
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
