@@ -5,8 +5,9 @@
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373537064351" ignored="false" />
-    <file path="/say_controller.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373541567843" ignored="false" />
+    <file path="/say_controller.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373542328491" ignored="false" />
     <file path="/routes.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373542041303" ignored="false" />
+    <file path="/hello.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373542412722" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.08196721">
+            <state line="7" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,7 +48,16 @@
       <file leaf-file-name="say_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="11" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="2" column="4" selection-start="60" selection-end="82" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/say/hello.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,8 +74,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/say_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/say_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/say/hello.html.erb" />
       </list>
     </option>
   </component>
@@ -510,16 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+        <state line="7" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.08196721">
+        <state line="2" column="4" selection-start="60" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/say/hello.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
