@@ -4,7 +4,7 @@
     <list default="true" id="3b5f7819-26ae-430f-9cad-46fe7a7e6def" name="Default" comment="" />
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373536306681" ignored="false" />
+    <file path="/Gemfile" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373537064351" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="981" selection-end="981" vertical-scroll-proportion="0.60655737">
+            <state line="7" column="10" selection-start="196" selection-end="196" vertical-scroll-proportion="0.114754096">
               <folding />
             </state>
           </provider>
@@ -390,7 +390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="981" selection-end="981" vertical-scroll-proportion="0.60655737">
+        <state line="7" column="10" selection-start="196" selection-end="196" vertical-scroll-proportion="0.114754096">
           <folding />
         </state>
       </provider>
