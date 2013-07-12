@@ -20,3 +20,18 @@
 <br>
 <br>
 <h2>Tasks</h2>
+<table>
+  <tr style="font-weight: bold;">
+    <td>Name</td>
+    <td>Description</td>
+    <td>Priority</td>
+  </tr>
+<% @tasks.each do |tasks| %>
+    <tr>
+      <td><%= tasks.name %></td>
+      <td><%= tasks.description %></td>
+      <td><%= tasks.priority %></td>
+    </tr>
+<% end %>
+</table>
+<%= link_to 'New Task', new_project_task_path(@project) %>
