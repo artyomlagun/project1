@@ -11,7 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130711133558) do
+ActiveRecord::Schema.define(version: 20130712082605) do
+
+  create_table "projects", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.date     "deadline"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tasks", force: true do |t|
+    t.integer  "project_id"
+    t.string   "name"
+    t.text     "description"
+    t.string   "priority"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

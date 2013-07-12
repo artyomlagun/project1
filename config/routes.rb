@@ -1,12 +1,17 @@
 Project1::Application.routes.draw do
+
+  resources :projects do
+    resources :tasks
+  end
+
   devise_for :users
-  get "say/hello"
+  get "index/hello"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-   root to: 'say#hello'
+   root to: 'index#hello'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
