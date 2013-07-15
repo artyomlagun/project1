@@ -1,0 +1,33 @@
+<h1>Listing statistics</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Project</th>
+      <th>Task</th>
+      <th>Number</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @statistics.each do |statistic| %>
+      <tr>
+        <td><%= statistic.date %></td>
+        <td><%= statistic.project_id %></td>
+        <td><%= statistic.task_id %></td>
+        <td><%= statistic.number %></td>
+        <td><%= link_to 'Show', project_statistic_path(@project, statistic) %></td>
+        <td><%= link_to 'Edit', edit_project_statistic_path(@project, statistic) %></td>
+        <td><%= link_to 'Destroy', project_statistic_path(@project, statistics), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Statistic', new_project_statistic_path(@project) %>

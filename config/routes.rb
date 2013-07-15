@@ -1,9 +1,12 @@
 Project1::Application.routes.draw do
 
+  resources :statistics
+
   resources :teams
 
   resources :projects do
     resources :tasks
+    resources :statistics
   end
 
   devise_for :users

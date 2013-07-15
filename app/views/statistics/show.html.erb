@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @statistic.date %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @statistic.project_id %>
+</p>
+
+<p>
+  <strong>Task:</strong>
+  <%= @statistic.task_id %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @statistic.number %>
+</p>
+
+<%= link_to 'Edit', edit_project_statistic_path(@project, @statistic) %> |
+<%= link_to 'Back', project_statistics_path %>

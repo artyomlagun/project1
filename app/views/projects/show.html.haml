@@ -1,0 +1,31 @@
+%p#notice
+  = notice
+
+%p
+  %strong
+    Name:
+  = @project.name
+
+%p
+  %strong
+    Description:
+  = @project.description
+
+%p
+  %strong
+    Deadline:
+  = @project.deadline
+
+= link_to 'Edit', edit_project_path(@project)
+= link_to 'Back', projects_path
+%br
+%p
+  Total views:
+%br
+
+%h2
+  Tasks
+
+= render @project.tasks
+
+= link_to 'New Task', new_project_task_path(@project)

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-07-15
+  project_id: 1
+  task_id: 1
+  number: 1
+
+two:
+  date: 2013-07-15
+  project_id: 1
+  task_id: 1
+  number: 1

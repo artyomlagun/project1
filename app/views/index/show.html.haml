@@ -1,0 +1,13 @@
+%ul.nav.nav-tabs
+  %li.active
+    = link_to 'Projects', '#projects', {:'data-toggle' => 'tab'}
+  %li
+    = link_to 'Teams', '#teams', {:'data-toggle' => 'tab'}
+
+
+.tab-content
+  .tab-pane.active#projects
+    = render @projects
+
+  .tab-pane#teams
+    = render @teams

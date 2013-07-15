@@ -1,6 +1,6 @@
 class IndexController < ApplicationController
   def show
-    # @projects = Project.new
-    # @teams = Team.new
+    @projects = Project.includes(:tasks)
+    @teams = Team.scoped
   end
 end

@@ -37,6 +37,7 @@ gem 'therubyracer', :platforms => :ruby
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'thin'
+gem 'haml'
 
 group :development do
   gem 'better_errors'

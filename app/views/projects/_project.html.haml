@@ -1,0 +1,9 @@
+%strong
+  = link_to("#{project.name}", project)
+  #{project.deadline}
+%br
+=  project.description
+%br
+= render project.tasks
+
+%br
