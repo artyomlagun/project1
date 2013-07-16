@@ -20,13 +20,14 @@
 = link_to 'Back', projects_path
 %br
 %p
-  Total views:
-  = @statistic.number
+
+= render "shared/statistic"
+
 %br
 
 %h2
   Tasks
 
 = render @project.tasks
-
+%br
 = link_to 'New Task', new_project_task_path(@project)

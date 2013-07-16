@@ -19,7 +19,6 @@ class TasksController < ApplicationController
       @statistic = @statistics.build(:date => Date.current, :number => 0)
     end
 
-    # @statistic.number += 1
     @statistic.save!
   end
 
