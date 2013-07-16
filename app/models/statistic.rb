@@ -7,6 +7,8 @@ class Statistic < ActiveRecord::Base
   validates :task_id, :presence => true, :if => -> {self.project_id.blank?}
   validate :validator_project_id_task_id
 
+  default_scope :order => 'date ASC'
+
   private
   def validator_project_id_task_id
     if project_id && task_id
