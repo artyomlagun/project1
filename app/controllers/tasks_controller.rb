@@ -10,6 +10,17 @@ class TasksController < ApplicationController
   # GET /tasks/1
   # GET /tasks/1.json
   def show
+    @statistics = @task.statistics
+
+    if @statistics.where(date: Date.current).exists?
+      @statistic = @statistics.where(date: Date.current).first
+      @statistic.number += 1
+    else
+      @statistic = @statistics.build(:date => Date.current, :number => 0)
+    end
+
+    # @statistic.number += 1
+    @statistic.save!
   end
 
   # GET /tasks/new

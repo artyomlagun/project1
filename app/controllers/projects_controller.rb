@@ -1,3 +1,4 @@
+#encoding: utf-8
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
 
@@ -12,6 +13,16 @@ class ProjectsController < ApplicationController
   def show
     @tasks = @project.tasks
     @statistics = @project.statistics
+
+    if @statistics.where(date: Date.current).exists?
+      @statistic = @statistics.where(date: Date.current).first
+      @statistic.number += 1
+    else
+      @statistic = @statistics.build(:date => Date.current, :number => 0)
+    end
+
+   # @statistic.number += 1
+    @statistic.save!
 
   end
 

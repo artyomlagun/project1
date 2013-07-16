@@ -1,7 +1,7 @@
 class StatisticsController < ApplicationController
-  before_action :set_statistic, only: [:show, :destroy]
-  before_action :set_project, only: [:show, :destroy]
-  before_action :set_task, only: [:show, :destroy]
+  before_action :set_statistic, only: [:show]
+  before_action :set_project, only: [:show]
+  before_action :set_task, only: [:show]
   # GET /statistics
   # GET /statistics.json
   def index
@@ -19,15 +19,6 @@ class StatisticsController < ApplicationController
   def show
   end
 
-  # DELETE /statistics/1
-  # DELETE /statistics/1.json
-  def destroy
-    @statistic.destroy
-    respond_to do |format|
-      format.html { redirect_to project_statistics_url(@project) }
-      format.json { head :no_content }
-    end
-  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
