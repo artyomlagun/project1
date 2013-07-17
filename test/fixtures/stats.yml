@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-07-16
+  statable_id: 1
+  statable_type: MyString
+  number: 1
+  statable_id: 
+
+two:
+  date: 2013-07-16
+  statable_id: 1
+  statable_type: MyString
+  number: 1
+  statable_id: 

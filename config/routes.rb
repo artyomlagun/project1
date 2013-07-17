@@ -1,16 +1,17 @@
 Project1::Application.routes.draw do
 
-  resources :statistics
+  resources :stats
+
+  get "stats/index"
 
   resources :teams
 
+
   resources :projects do
     resources :tasks
-    resources :statistics
   end
 
   devise_for :users
-  get "index/show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

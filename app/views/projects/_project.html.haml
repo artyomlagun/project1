@@ -4,6 +4,9 @@
 %br
 =  project.description
 %br
+= render :collection => project.stats, :partial => "shared/stat"
+%br
+
 = render project.tasks
 
 %br

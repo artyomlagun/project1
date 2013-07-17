@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130715122959) do
+ActiveRecord::Schema.define(version: 20130716155444) do
 
   create_table "projects", force: true do |t|
     t.string   "name"
@@ -21,14 +21,16 @@ ActiveRecord::Schema.define(version: 20130715122959) do
     t.datetime "updated_at"
   end
 
-  create_table "statistics", force: true do |t|
+  create_table "stats", force: true do |t|
     t.date     "date"
-    t.integer  "project_id"
-    t.integer  "task_id"
+    t.integer  "statable_id"
+    t.string   "statable_type"
     t.integer  "number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "stats", ["statable_id", "statable_type"], name: "index_stats_on_statable_id_and_statable_type"
 
   create_table "tasks", force: true do |t|
     t.integer  "project_id"

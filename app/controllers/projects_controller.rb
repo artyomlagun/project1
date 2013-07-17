@@ -11,19 +11,22 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.json
   def show
+    @project = Project.find(params[:id])
+    @statable = @project
+    @stats = @statable.stats
+    @stat = Stat.new
     @tasks = @project.tasks
-    @statistics = @project.statistics
-
-    if @statistics.where(date: Date.current).exists?
-      @statistic = @statistics.where(date: Date.current).first
-      @statistic.number += 1
+#    @statistics = @project.statistics
+#
+    if @stats.where(date: Date.current).exists?
+      @stat = @stats.where(date: Date.current).first
+      @stat.number += 1
     else
-      @statistic = @statistics.build(:date => Date.current, :number => 0)
+      @stat = @stats.build(:date => Date.current, :number => 0)
     end
 
    # @statistic.number += 1
-    @statistic.save!
-
+    @stat.save!
   end
 
   # GET /projects/new
