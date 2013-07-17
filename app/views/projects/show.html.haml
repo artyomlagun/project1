@@ -17,11 +17,11 @@
   = @project.deadline
 
 = link_to 'Edit', edit_project_path(@project)
-= link_to 'Back', projects_path
+= link_to 'Back', root_path
 %br
 
-
-Statistic views project:
+%strong
+  Statistic views project:
 %br
 = render :collection => @stats, :partial => "shared/stat"
 
@@ -29,5 +29,4 @@ Statistic views project:
   Tasks
 
 = render @project.tasks
-%br
 = link_to 'New Task', new_project_task_path(@project)

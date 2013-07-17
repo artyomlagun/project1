@@ -11,20 +11,10 @@ class TasksController < ApplicationController
   # GET /tasks/1.json
   def show
     @task = Task.find(params[:id])
+    @task.update_stat
     @statable = @task
     @stats = @statable.stats
     @stat = Stat.new
-#    @statistics = @project.statistics
-#
-    if @stats.where(date: Date.current).exists?
-      @stat = @stats.where(date: Date.current).first
-      @stat.number += 1
-    else
-      @stat = @stats.build(:date => Date.current, :number => 0)
-    end
-
-    # @statistic.number += 1
-    @stat.save!
   end
 
   # GET /tasks/new

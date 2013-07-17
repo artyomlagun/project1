@@ -12,21 +12,11 @@ class ProjectsController < ApplicationController
   # GET /projects/1.json
   def show
     @project = Project.find(params[:id])
+    @project.update_stat
     @statable = @project
     @stats = @statable.stats
     @stat = Stat.new
     @tasks = @project.tasks
-#    @statistics = @project.statistics
-#
-    if @stats.where(date: Date.current).exists?
-      @stat = @stats.where(date: Date.current).first
-      @stat.number += 1
-    else
-      @stat = @stats.build(:date => Date.current, :number => 0)
-    end
-
-   # @statistic.number += 1
-    @stat.save!
   end
 
   # GET /projects/new

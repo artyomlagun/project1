@@ -1,8 +1,9 @@
 = link_to("#{task.name}", project_task_path(task.project, task))
+%br
 #{task.description}
 %br
 
-Statistic views task:
+%strong
+  Statistic views task:
 %br
 = render :collection => task.stats, :partial => "shared/stat"
-%br
