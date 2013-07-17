@@ -15,8 +15,8 @@
     <file path="/user.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373551003012" ignored="false" />
     <file path="/new.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373894805853" ignored="false" />
     <file path="/index.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373894568378" ignored="false" />
-    <file path="/project.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374055304407" ignored="false" />
-    <file path="/show.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373971869407" ignored="false" />
+    <file path="/project.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374059122219" ignored="false" />
+    <file path="/show.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374059656680" ignored="false" />
     <file path="/_form.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373894991650" ignored="false" />
     <file path="/20130712080111_create_tasks.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373617702289" ignored="false" />
     <file path="/application.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373890956800" ignored="false" />
@@ -24,11 +24,11 @@
     <file path="/edit.html.erb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373894772686" ignored="false" />
     <file path="/projects_controller.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374056525954" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373624932623" ignored="false" />
-    <file path="/task.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374056792231" ignored="false" />
+    <file path="/task.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374059459661" ignored="false" />
     <file path="/index_controller.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373879130007" ignored="false" />
     <file path="/team.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373988830890" ignored="false" />
     <file path="/temp.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373642101308" ignored="false" />
-    <file path="/show.html.haml" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374058644205" ignored="false" />
+    <file path="/show.html.haml" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374059948257" ignored="false" />
     <file path="/_project.html.haml" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374048875145" ignored="false" />
     <file path="/_form.html.haml" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373884006767" ignored="false" />
     <file path="/_task.html.haml" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374058587455" ignored="false" />
@@ -41,6 +41,7 @@
     <file path="/20130715122959_create_statistics.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373990131970" ignored="false" />
     <file path="/20130716155444_create_stats.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1373990345004" ignored="false" />
     <file path="/check_stat.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374051624699" ignored="false" />
+    <file path="/update_stat.rb" changelist="3b5f7819-26ae-430f-9cad-46fe7a7e6def" time="1374059307983" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,44 +60,88 @@
     <favorites_list name="project1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tasks_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="253" selection-end="253" vertical-scroll-proportion="0.3630363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_task.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/_task.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/task.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="projects_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20130716155444_create_stats.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20130716155444_create_stats.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="project.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="4" selection-start="253" selection-end="253" vertical-scroll-proportion="-13.75">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="tasks_controller.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="20" selection-start="517" selection-end="517" vertical-scroll-proportion="0.21195652">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/task.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_task.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/tasks/_task.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="2" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="31" selection-start="326" selection-end="326" vertical-scroll-proportion="-14.375">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,22 +151,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/team.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/stats_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_statistic.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/tasks/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/_project.html.haml" />
         <option value="$PROJECT_DIR$/lib/my_module/stat.rb" />
         <option value="$PROJECT_DIR$/lib/my_module/check_stat.rb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/task.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
-        <option value="$PROJECT_DIR$/lib/my_module/update_stat.rb" />
-        <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/views/tasks/_task.html.haml" />
         <option value="$PROJECT_DIR$/app/views/projects/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tasks/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/new.html.erb" />
+        <option value="$PROJECT_DIR$/lib/my_module/update_stat.rb" />
+        <option value="$PROJECT_DIR$/app/models/task.rb" />
+        <option value="$PROJECT_DIR$/app/models/project.rb" />
+        <option value="$PROJECT_DIR$/app/views/tasks/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tasks/show.html.haml" />
       </list>
     </option>
   </component>
@@ -187,24 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,6 +462,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concerns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -467,6 +516,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models/concerns" />
       <recent name="$PROJECT_DIR$/app/views/shared" />
     </key>
   </component>
@@ -745,9 +795,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47242457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1486784" sideWeight="0.52757543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18502203" sideWeight="0.52757543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -756,7 +807,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47242457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -825,26 +875,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="244" selection-end="244" vertical-scroll-proportion="0.28052804" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/stats_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-4.0.0/lib/action_view/helpers/rendering_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="10" selection-start="929" selection-end="929" vertical-scroll-proportion="0.28428093" />
@@ -860,41 +890,6 @@
         <state line="9" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.14851485" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130716155444_create_stats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/my_module/update_stat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="159" selection-end="296" vertical-scroll-proportion="0.096463025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="478" selection-end="478" vertical-scroll-proportion="0.3376206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/task.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="2" selection-start="170" selection-end="170" vertical-scroll-proportion="0.1320132">
@@ -902,9 +897,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="4" column="27" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0660066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0660066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.03215434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/update_stat.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="0.01607717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/task.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -916,9 +939,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="253" selection-end="253" vertical-scroll-proportion="0.3630363">
+        <state line="22" column="4" selection-start="253" selection-end="253" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="326" selection-end="326" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="517" selection-end="517" vertical-scroll-proportion="0.21195652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130716155444_create_stats.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
